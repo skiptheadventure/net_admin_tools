@@ -51,7 +51,7 @@ Description = 'A number of useful cmdlets for network administrators.'
 # ProcessorArchitecture = ''
 
 # Modules that must be imported into the global environment prior to importing this module
-# RequiredModules = @()
+RequiredModules = @("Posh-Menus")
 
 # Assemblies that must be loaded prior to importing this module
 # RequiredAssemblies = @()
@@ -76,7 +76,7 @@ FunctionsToExport = @("ConvertFrom-F5Cookie","ConvertFrom-F5Config","Get-PublicI
 CmdletsToExport = @()
 
 # Variables to export from this module
-VariablesToExport = '*'
+VariablesToExport = @()
 
 # Aliases to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no aliases to export.
 AliasesToExport = @()
